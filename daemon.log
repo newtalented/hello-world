@@ -1,0 +1,350 @@
+Mar 18 20:06:02 raspberrypi systemd[941]: Starting Virtual filesystem service - disk device monitor...
+Mar 18 20:06:02 raspberrypi dbus[332]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Mar 18 20:06:02 raspberrypi systemd[1]: Starting Disk Manager...
+Mar 18 20:06:02 raspberrypi udisksd[1142]: udisks daemon version 2.1.8 starting
+Mar 18 20:06:02 raspberrypi dbus[332]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Mar 18 20:06:02 raspberrypi systemd[1]: Started Disk Manager.
+Mar 18 20:06:02 raspberrypi udisksd[1142]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Mar 18 20:06:03 raspberrypi dbus-daemon[966]: Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Mar 18 20:06:03 raspberrypi systemd[941]: Started Virtual filesystem service - disk device monitor.
+Mar 18 20:06:03 raspberrypi dbus-daemon[966]: Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service'
+Mar 18 20:06:03 raspberrypi systemd[941]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Mar 18 20:06:03 raspberrypi dbus-daemon[966]: Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Mar 18 20:06:03 raspberrypi systemd[941]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Mar 18 20:06:03 raspberrypi dbus-daemon[966]: Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service'
+Mar 18 20:06:03 raspberrypi systemd[941]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Mar 18 20:06:03 raspberrypi gvfs-afc-volume-monitor[1153]: Volume monitor alive
+Mar 18 20:06:03 raspberrypi dbus-daemon[966]: Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Mar 18 20:06:03 raspberrypi systemd[941]: Started Virtual filesystem service - Apple File Conduit monitor.
+Mar 18 20:06:03 raspberrypi dbus-daemon[966]: Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service'
+Mar 18 20:06:03 raspberrypi systemd[941]: Starting Virtual filesystem service - digital camera monitor...
+Mar 18 20:06:03 raspberrypi dbus-daemon[966]: Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Mar 18 20:06:03 raspberrypi systemd[941]: Started Virtual filesystem service - digital camera monitor.
+Mar 18 20:06:03 raspberrypi dbus-daemon[966]: Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service'
+Mar 18 20:06:03 raspberrypi systemd[941]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Mar 18 20:06:03 raspberrypi dbus-daemon[966]: Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Mar 18 20:06:03 raspberrypi systemd[941]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Mar 18 20:06:24 raspberrypi systemd[1]: Time has been changed
+Mar 18 20:06:24 raspberrypi systemd[941]: Time has been changed
+Mar 18 20:06:24 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 8min 34.689472s random time.
+Mar 18 20:06:24 raspberrypi systemd[1]: apt-daily.timer: Adding 4h 16min 24.157370s random time.
+Mar 18 20:07:20 raspberrypi systemd[1]: dev-serial1.device: Job dev-serial1.device/start timed out.
+Mar 18 20:07:20 raspberrypi systemd[1]: Timed out waiting for device dev-serial1.device.
+Mar 18 20:07:20 raspberrypi systemd[1]: Dependency failed for Configure Bluetooth Modems connected by UART.
+Mar 18 20:07:20 raspberrypi systemd[1]: hciuart.service: Job hciuart.service/start failed with result 'dependency'.
+Mar 18 20:07:20 raspberrypi systemd[1]: dev-serial1.device: Job dev-serial1.device/start failed with result 'timeout'.
+Mar 18 20:07:20 raspberrypi systemd[1]: Reached target Multi-User System.
+Mar 18 20:07:20 raspberrypi systemd[1]: Reached target Graphical Interface.
+Mar 18 20:07:20 raspberrypi systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 18 20:07:20 raspberrypi systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 18 20:07:20 raspberrypi systemd[1]: Startup finished in 1.759s (kernel) + 1min 31.689s (userspace) = 1min 33.449s.
+Mar 18 20:10:10 raspberrypi systemd-modules-load[98]: Inserted module 'i2c_dev'
+Mar 18 20:10:10 raspberrypi fake-hwclock[100]: Wed Mar 18 11:05:40 UTC 2020
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Create Static Device Nodes in /dev.
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting udev Kernel Device Manager...
+Mar 18 20:10:10 raspberrypi systemd-fsck[129]: e2fsck 1.43.4 (31-Jan-2017)
+Mar 18 20:10:10 raspberrypi systemd-fsck[129]: rootfs: clean, 126729/1935360 files, 1131523/7858176 blocks
+Mar 18 20:10:10 raspberrypi systemd[1]: Started File System Check on Root Device.
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Set the console keyboard layout.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started udev Kernel Device Manager.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Remount Root and Kernel File Systems.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target Local File Systems (Pre).
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting udev Coldplug all Devices...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Load/Save Random Seed...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Load/Save Random Seed.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Flush Journal to Persistent Storage.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started udev Coldplug all Devices.
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Show Plymouth Boot Screen...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Show Plymouth Boot Screen.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target Encrypted Volumes.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target Paths.
+Mar 18 20:10:10 raspberrypi systemd[1]: Found device /dev/ttyAMA0.
+Mar 18 20:10:10 raspberrypi systemd[1]: Found device /dev/disk/by-partuuid/359ad16d-01.
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting File System Check on /dev/disk/by-partuuid/359ad16d-01...
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target Sound Card.
+Mar 18 20:10:10 raspberrypi systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Mar 18 20:10:10 raspberrypi systemd-fsck[213]: fsck.fat 4.1 (2017-01-24)
+Mar 18 20:10:10 raspberrypi systemd-fsck[213]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+Mar 18 20:10:10 raspberrypi systemd-fsck[213]:  Automatically removing dirty bit.
+Mar 18 20:10:10 raspberrypi systemd-fsck[213]: Performing changes.
+Mar 18 20:10:10 raspberrypi systemd-fsck[213]: /dev/mmcblk0p1: 213 files, 45712/86467 clusters
+Mar 18 20:10:10 raspberrypi systemd[1]: Started File System Check on /dev/disk/by-partuuid/359ad16d-01.
+Mar 18 20:10:10 raspberrypi systemd[1]: Mounting /boot...
+Mar 18 20:10:10 raspberrypi systemd[1]: Mounted /boot.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target Local File Systems.
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Create Volatile Files and Directories...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Preprocess NFS configuration...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Set console font and keymap...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Raise network interfaces...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Preprocess NFS configuration.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target NFS client services.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target Remote File Systems (Pre).
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target Remote File Systems.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Create Volatile Files and Directories.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Set console font and keymap.
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Network Time Synchronization...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 18 20:10:10 raspberrypi systemd-udevd[182]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Mar 18 20:10:10 raspberrypi systemd-udevd[185]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Mar 18 20:10:10 raspberrypi systemd-udevd[173]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Mar 18 20:10:10 raspberrypi systemd[1]: Time has been changed
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Network Time Synchronization.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target System Time Synchronized.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target System Initialization.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 18 20:10:10 raspberrypi systemd[1]: apt-daily.timer: Adding 10h 9min 38.925018s random time.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Daily apt download activities.
+Mar 18 20:10:10 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 38min 29.281684s random time.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target Timers.
+Mar 18 20:10:10 raspberrypi systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Mar 18 20:10:10 raspberrypi systemd[1]: Listening on triggerhappy.socket.
+Mar 18 20:10:10 raspberrypi systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target Sockets.
+Mar 18 20:10:10 raspberrypi systemd[1]: Reached target Basic System.
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Check for v3d driver...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Deferred execution scheduler.
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Save/Restore Sound Card State...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting triggerhappy global hotkey daemon...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Regular background program processing daemon.
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting dhcpcd on all interfaces...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Login Service...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started D-Bus System Message Bus.
+Mar 18 20:10:10 raspberrypi thd[313]: Found socket passed from systemd
+Mar 18 20:10:10 raspberrypi dhcpcd[316]: dev: loaded udev
+Mar 18 20:10:10 raspberrypi systemd-udevd[178]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Mar 18 20:10:10 raspberrypi dhcpcd[316]: forked to background, child pid 348
+Mar 18 20:10:10 raspberrypi systemd-udevd[182]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Mar 18 20:10:10 raspberrypi dbus[320]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting WPA supplicant...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting rng-tools.service...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Disable WiFi if country not set...
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting System Logging Service...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started triggerhappy global hotkey daemon.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Check for v3d driver.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Save/Restore Sound Card State.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started dhcpcd on all interfaces.
+Mar 18 20:10:10 raspberrypi rng-tools[359]: Starting Hardware RNG entropy gatherer daemon: rngd.
+Mar 18 20:10:10 raspberrypi rngd[373]: rngd 2-unofficial-mt.14 starting up...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started rng-tools.service.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Disable WiFi if country not set.
+Mar 18 20:10:10 raspberrypi rngd[373]: entropy feed to the kernel ready
+Mar 18 20:10:10 raspberrypi avahi-daemon[357]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Mar 18 20:10:10 raspberrypi avahi-daemon[357]: Successfully dropped root privileges.
+Mar 18 20:10:10 raspberrypi avahi-daemon[357]: avahi-daemon 0.6.32 starting up.
+Mar 18 20:10:10 raspberrypi dhcpcd-run-hooks[378]: wlan0: starting wpa_supplicant
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Login Service.
+Mar 18 20:10:10 raspberrypi avahi-daemon[357]: Successfully called chroot().
+Mar 18 20:10:10 raspberrypi avahi-daemon[357]: Successfully dropped remaining capabilities.
+Mar 18 20:10:10 raspberrypi dphys-swapfile[317]: Starting dphys-swapfile swapfile setup ...
+Mar 18 20:10:10 raspberrypi avahi-daemon[357]: No service file found in /etc/avahi/services.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Mar 18 20:10:10 raspberrypi avahi-daemon[357]: Network interface enumeration completed.
+Mar 18 20:10:10 raspberrypi avahi-daemon[357]: Server startup complete. Host name is raspberrypi.local. Local service cookie is 3246132778.
+Mar 18 20:10:10 raspberrypi systemd[1]: Starting Load/Save RF Kill Switch Status...
+Mar 18 20:10:10 raspberrypi systemd[1]: Started Load/Save RF Kill Switch Status.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started System Logging Service.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started WPA supplicant.
+Mar 18 20:10:10 raspberrypi wpa_supplicant[358]: Successfully initialized wpa_supplicant
+Mar 18 20:10:10 raspberrypi dphys-swapfile[317]: want /var/swap=100MByte, checking existing: keeping it
+Mar 18 20:10:10 raspberrypi dphys-swapfile[317]: done.
+Mar 18 20:10:10 raspberrypi systemd[1]: Started LSB: Autogenerate and use a swap file.
+Mar 18 20:10:11 raspberrypi raspi-config[309]: Checking if shift key is held down: No. Switching to ondemand scaling governor.
+Mar 18 20:10:11 raspberrypi systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: DUID 00:01:00:01:24:3d:e1:80:b8:27:eb:8b:b7:c4
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: IAID eb:0c:9d:67
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: IAID conflicts with one assigned to br0
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: adding address fe80::f074:8198:21e0:33f3
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: if_addaddress6: Permission denied
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: br0: waiting for carrier
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: wlan0: waiting for carrier
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: br0: waiting for carrier
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: br0: carrier acquired
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: br0: IAID eb:0c:9d:67
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: br0: IAID conflicts with one assigned to eth0
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: deleting address fe80::f074:8198:21e0:33f3
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: br0: adding address fe80::f074:8198:21e0:33f3
+Mar 18 20:10:11 raspberrypi avahi-daemon[357]: Joining mDNS multicast group on interface br0.IPv6 with address fe80::f074:8198:21e0:33f3.
+Mar 18 20:10:11 raspberrypi avahi-daemon[357]: New relevant interface br0.IPv6 for mDNS.
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: carrier lost
+Mar 18 20:10:11 raspberrypi avahi-daemon[357]: Registering new address record for fe80::f074:8198:21e0:33f3 on br0.*.
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: carrier acquired
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: IAID eb:0c:9d:67
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: IAID conflicts with one assigned to br0
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: br0: deleting address fe80::f074:8198:21e0:33f3
+Mar 18 20:10:11 raspberrypi avahi-daemon[357]: Withdrawing address record for fe80::f074:8198:21e0:33f3 on br0.
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: adding address fe80::f074:8198:21e0:33f3
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: if_addaddress6: Permission denied
+Mar 18 20:10:11 raspberrypi avahi-daemon[357]: Leaving mDNS multicast group on interface br0.IPv6 with address fe80::f074:8198:21e0:33f3.
+Mar 18 20:10:11 raspberrypi avahi-daemon[357]: Interface br0.IPv6 no longer relevant for mDNS.
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: br0: soliciting an IPv6 router
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: br0: rebinding lease of 192.168.12.213
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: soliciting an IPv6 router
+Mar 18 20:10:11 raspberrypi dhcpcd[348]: eth0: soliciting a DHCP lease
+Mar 18 20:10:16 raspberrypi dhcpcd[348]: br0: probing address 192.168.12.213/24
+Mar 18 20:10:16 raspberrypi dhcpcd[348]: eth0: probing for an IPv4LL address
+Mar 18 20:10:20 raspberrypi dhcpcd[348]: br0: leased 192.168.12.213 for 86400 seconds
+Mar 18 20:10:20 raspberrypi avahi-daemon[357]: Joining mDNS multicast group on interface br0.IPv4 with address 192.168.12.213.
+Mar 18 20:10:20 raspberrypi avahi-daemon[357]: New relevant interface br0.IPv4 for mDNS.
+Mar 18 20:10:20 raspberrypi dhcpcd[348]: br0: adding route to 192.168.12.0/24
+Mar 18 20:10:20 raspberrypi avahi-daemon[357]: Registering new address record for 192.168.12.213 on br0.IPv4.
+Mar 18 20:10:20 raspberrypi dhcpcd[348]: br0: adding default route via 192.168.12.1
+Mar 18 20:10:21 raspberrypi dhcpcd[348]: wlan0: waiting for carrier
+Mar 18 20:10:21 raspberrypi dhcpcd[348]: eth0: using IPv4LL address 169.254.5.34
+Mar 18 20:10:21 raspberrypi avahi-daemon[357]: Joining mDNS multicast group on interface eth0.IPv4 with address 169.254.5.34.
+Mar 18 20:10:21 raspberrypi avahi-daemon[357]: New relevant interface eth0.IPv4 for mDNS.
+Mar 18 20:10:21 raspberrypi dhcpcd[348]: eth0: adding route to 169.254.0.0/16
+Mar 18 20:10:21 raspberrypi avahi-daemon[357]: Registering new address record for 169.254.5.34 on eth0.IPv4.
+Mar 18 20:10:22 raspberrypi systemd[1]: Received SIGRTMIN+20 from PID 191 (plymouthd).
+Mar 18 20:10:23 raspberrypi systemd[1]: Started Raise network interfaces.
+Mar 18 20:10:23 raspberrypi systemd[1]: Reached target Network.
+Mar 18 20:10:23 raspberrypi systemd[1]: Starting Advanced IEEE 802.11 AP and IEEE 802.1X/WPA/WPA2/EAP Authenticator...
+Mar 18 20:10:23 raspberrypi systemd[1]: Reached target Network is Online.
+Mar 18 20:10:23 raspberrypi systemd[1]: Starting /etc/rc.local Compatibility...
+Mar 18 20:10:23 raspberrypi systemd[1]: Starting Permit User Sessions...
+Mar 18 20:10:23 raspberrypi systemd[1]: Starting dnsmasq - A lightweight DHCP and caching DNS server...
+Mar 18 20:10:23 raspberrypi systemd[1]: Starting xrdp session manager...
+Mar 18 20:10:23 raspberrypi systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 18 20:10:23 raspberrypi systemd[1]: Started Permit User Sessions.
+Mar 18 20:10:23 raspberrypi systemd[1]: Starting Light Display Manager...
+Mar 18 20:10:23 raspberrypi hostapd[605]: Configuration file: /etc/hostapd/hostapd.conf
+Mar 18 20:10:23 raspberrypi xrdp-sesman[610]: (610)(1996098944)[DEBUG] libscp initialized
+Mar 18 20:10:23 raspberrypi dnsmasq[608]: dnsmasq: syntax check OK.
+Mar 18 20:10:23 raspberrypi xrdp-sesman[629]: (629)(1996098944)[INFO ] starting xrdp-sesman with pid 629
+Mar 18 20:10:23 raspberrypi systemd[1]: Started xrdp session manager.
+Mar 18 20:10:23 raspberrypi systemd[1]: Starting xrdp daemon...
+Mar 18 20:10:24 raspberrypi systemd[1]: xrdp.service: PID file /run/xrdp/xrdp.pid not readable (yet?) after start: No such file or directory
+Mar 18 20:10:24 raspberrypi xrdp-sesman[629]: (629)(1996098944)[ERROR] bind error on port '3350': 22 (Invalid argument)
+Mar 18 20:10:24 raspberrypi hostapd[605]: Using interface wlan0 with hwaddr 90:9f:33:eb:5f:ed and ssid "DTNnode1"
+Mar 18 20:10:24 raspberrypi systemd[1]: Started /etc/rc.local Compatibility.
+Mar 18 20:10:24 raspberrypi xrdp-sesman[629]: (629)(1996098944)[DEBUG] Closed socket 7 (AF_INET6 :: port 0)
+Mar 18 20:10:24 raspberrypi systemd[1]: Starting Terminate Plymouth Boot Screen...
+Mar 18 20:10:24 raspberrypi systemd[1]: Starting Hold until boot process finishes up...
+Mar 18 20:10:24 raspberrypi systemd[1]: xrdp-sesman.service: Control process exited, code=exited status=1
+Mar 18 20:10:24 raspberrypi systemd[1]: xrdp-sesman.service: Unit entered failed state.
+Mar 18 20:10:24 raspberrypi systemd[1]: xrdp-sesman.service: Failed with result 'exit-code'.
+Mar 18 20:10:24 raspberrypi dhcpcd[348]: wlan0: carrier acquired
+Mar 18 20:10:24 raspberrypi hostapd[605]: wlan0: interface state UNINITIALIZED->ENABLED
+Mar 18 20:10:24 raspberrypi hostapd[605]: wlan0: AP-ENABLED
+Mar 18 20:10:24 raspberrypi systemd[1]: hostapd.service: PID file /run/hostapd.pid not readable (yet?) after start: No such file or directory
+Mar 18 20:10:24 raspberrypi systemd[1]: Started Advanced IEEE 802.11 AP and IEEE 802.1X/WPA/WPA2/EAP Authenticator.
+Mar 18 20:10:24 raspberrypi dhcpcd[348]: wlan0: IAID 33:eb:5f:ed
+Mar 18 20:10:24 raspberrypi dhcpcd[348]: wlan0: adding address fe80::ca3a:956b:34c3:b455
+Mar 18 20:10:24 raspberrypi dhcpcd[348]: if_addaddress6: Permission denied
+Mar 18 20:10:24 raspberrypi dhcpcd[348]: wlan0: probing address 192.168.0.10/24
+Mar 18 20:10:24 raspberrypi systemd[1]: Started OpenBSD Secure Shell server.
+Mar 18 20:10:25 raspberrypi systemd[1]: Received SIGRTMIN+21 from PID 191 (plymouthd).
+Mar 18 20:10:25 raspberrypi lightdm[617]: error: unexpectedly disconnected from boot status daemon
+Mar 18 20:10:25 raspberrypi systemd[1]: Started Terminate Plymouth Boot Screen.
+Mar 18 20:10:25 raspberrypi dnsmasq[675]: started, version 2.76 cachesize 150
+Mar 18 20:10:25 raspberrypi dnsmasq[675]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Mar 18 20:10:25 raspberrypi dnsmasq[675]: warning: interface wlan0 does not currently exist
+Mar 18 20:10:25 raspberrypi systemd[1]: Started Hold until boot process finishes up.
+Mar 18 20:10:25 raspberrypi dnsmasq-dhcp[675]: DHCP, IP range 192.168.0.100 -- 192.168.0.110, lease time 2h
+Mar 18 20:10:25 raspberrypi dnsmasq[675]: reading /run/dnsmasq/resolv.conf
+Mar 18 20:10:25 raspberrypi dnsmasq[675]: using nameserver 8.8.8.8#53
+Mar 18 20:10:25 raspberrypi dnsmasq[675]: using nameserver 192.168.12.1#53
+Mar 18 20:10:25 raspberrypi dnsmasq[675]: read /etc/hosts - 5 addresses
+Mar 18 20:10:25 raspberrypi systemd[1]: Started Serial Getty on ttyAMA0.
+Mar 18 20:10:25 raspberrypi systemd[1]: Started Getty on tty1.
+Mar 18 20:10:25 raspberrypi systemd[1]: Reached target Login Prompts.
+Mar 18 20:10:25 raspberrypi systemd[1]: Started Light Display Manager.
+Mar 18 20:10:25 raspberrypi dhcpcd[348]: wlan0: soliciting an IPv6 router
+Mar 18 20:10:25 raspberrypi dnsmasq[678]: Too few arguments.
+Mar 18 20:10:25 raspberrypi systemd[1]: Started dnsmasq - A lightweight DHCP and caching DNS server.
+Mar 18 20:10:25 raspberrypi systemd[1]: Reached target Host and Network Name Lookups.
+Mar 18 20:10:25 raspberrypi systemd[1]: Starting LSB: exim Mail Transport Agent...
+Mar 18 20:10:26 raspberrypi xrdp[651]: (651)(1995556624)[INFO ] starting xrdp with pid 651
+Mar 18 20:10:26 raspberrypi xrdp[651]: (651)(1995556624)[ERROR] xrdp_listen_main_loop: listen error, possible port already in use
+Mar 18 20:10:26 raspberrypi xrdp[651]: (651)(1995556624)[DEBUG] Closed socket 11 (AF_INET6 :: port 0)
+Mar 18 20:10:26 raspberrypi systemd[1]: xrdp.service: Daemon never wrote its PID file. Failing.
+Mar 18 20:10:26 raspberrypi systemd[1]: Failed to start xrdp daemon.
+Mar 18 20:10:26 raspberrypi systemd[1]: xrdp.service: Unit entered failed state.
+Mar 18 20:10:26 raspberrypi systemd[1]: xrdp.service: Failed with result 'resources'.
+Mar 18 20:10:29 raspberrypi exim4[732]: Starting MTA: exim4.
+Mar 18 20:10:29 raspberrypi systemd[1]: Started LSB: exim Mail Transport Agent.
+Mar 18 20:10:29 raspberrypi systemd[1]: Created slice User Slice of pi.
+Mar 18 20:10:29 raspberrypi systemd[1]: Starting User Manager for UID 1000...
+Mar 18 20:10:29 raspberrypi systemd[1]: Started Session c1 of user pi.
+Mar 18 20:10:29 raspberrypi dhcpcd[348]: wlan0: using static address 192.168.0.10/24
+Mar 18 20:10:29 raspberrypi dhcpcd[348]: wlan0: adding route to 192.168.0.0/24
+Mar 18 20:10:29 raspberrypi avahi-daemon[357]: Joining mDNS multicast group on interface wlan0.IPv4 with address 192.168.0.10.
+Mar 18 20:10:29 raspberrypi avahi-daemon[357]: New relevant interface wlan0.IPv4 for mDNS.
+Mar 18 20:10:29 raspberrypi avahi-daemon[357]: Registering new address record for 192.168.0.10 on wlan0.IPv4.
+Mar 18 20:10:30 raspberrypi systemd[1006]: Starting D-Bus User Message Bus Socket.
+Mar 18 20:10:30 raspberrypi systemd[1006]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 18 20:10:30 raspberrypi systemd[1006]: Listening on GnuPG network certificate management daemon.
+Mar 18 20:10:30 raspberrypi systemd[1006]: Reached target Paths.
+Mar 18 20:10:30 raspberrypi systemd[1006]: Reached target Timers.
+Mar 18 20:10:30 raspberrypi systemd[1006]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 18 20:10:30 raspberrypi systemd[1006]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 18 20:10:30 raspberrypi systemd[1006]: Listening on GnuPG cryptographic agent (access for web browsers).
+Mar 18 20:10:30 raspberrypi systemd[1006]: Listening on D-Bus User Message Bus Socket.
+Mar 18 20:10:30 raspberrypi systemd[1006]: Reached target Sockets.
+Mar 18 20:10:30 raspberrypi systemd[1006]: Reached target Basic System.
+Mar 18 20:10:30 raspberrypi systemd[1006]: Reached target Default.
+Mar 18 20:10:30 raspberrypi systemd[1006]: Startup finished in 243ms.
+Mar 18 20:10:30 raspberrypi systemd[1]: Started User Manager for UID 1000.
+Mar 18 20:10:30 raspberrypi lightdm[617]: Error opening audit socket: Protocol not supported
+Mar 18 20:10:30 raspberrypi systemd[1006]: Started D-Bus User Message Bus.
+Mar 18 20:10:34 raspberrypi dbus-daemon[1031]: Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service'
+Mar 18 20:10:34 raspberrypi systemd[1006]: Starting Virtual filesystem service...
+Mar 18 20:10:34 raspberrypi dbus-daemon[1031]: Successfully activated service 'org.gtk.vfs.Daemon'
+Mar 18 20:10:34 raspberrypi systemd[1006]: Started Virtual filesystem service.
+Mar 18 20:10:34 raspberrypi systemd[1]: Mounting FUSE Control File System...
+Mar 18 20:10:34 raspberrypi systemd[1]: Mounted FUSE Control File System.
+Mar 18 20:10:35 raspberrypi dbus[320]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service'
+Mar 18 20:10:35 raspberrypi systemd[1]: Starting Authorization Manager...
+Mar 18 20:10:35 raspberrypi polkitd[1120]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Mar 18 20:10:35 raspberrypi dbus[320]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Mar 18 20:10:35 raspberrypi systemd[1]: Started Authorization Manager.
+Mar 18 20:10:37 raspberrypi dbus-daemon[1031]: Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service'
+Mar 18 20:10:37 raspberrypi systemd[1006]: Starting Virtual filesystem service - disk device monitor...
+Mar 18 20:10:37 raspberrypi dbus[320]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Mar 18 20:10:37 raspberrypi systemd[1]: Starting Disk Manager...
+Mar 18 20:10:37 raspberrypi udisksd[1153]: udisks daemon version 2.1.8 starting
+Mar 18 20:10:38 raspberrypi dbus[320]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Mar 18 20:10:38 raspberrypi systemd[1]: Started Disk Manager.
+Mar 18 20:10:38 raspberrypi udisksd[1153]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Mar 18 20:10:38 raspberrypi dbus-daemon[1031]: Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Mar 18 20:10:38 raspberrypi systemd[1006]: Started Virtual filesystem service - disk device monitor.
+Mar 18 20:10:38 raspberrypi dbus-daemon[1031]: Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service'
+Mar 18 20:10:38 raspberrypi systemd[1006]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Mar 18 20:10:38 raspberrypi dbus-daemon[1031]: Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Mar 18 20:10:38 raspberrypi systemd[1006]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Mar 18 20:10:38 raspberrypi dbus-daemon[1031]: Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service'
+Mar 18 20:10:38 raspberrypi systemd[1006]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Mar 18 20:10:38 raspberrypi gvfs-afc-volume-monitor[1165]: Volume monitor alive
+Mar 18 20:10:38 raspberrypi dbus-daemon[1031]: Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Mar 18 20:10:38 raspberrypi systemd[1006]: Started Virtual filesystem service - Apple File Conduit monitor.
+Mar 18 20:10:38 raspberrypi dbus-daemon[1031]: Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service'
+Mar 18 20:10:38 raspberrypi systemd[1006]: Starting Virtual filesystem service - digital camera monitor...
+Mar 18 20:10:38 raspberrypi dbus-daemon[1031]: Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Mar 18 20:10:38 raspberrypi systemd[1006]: Started Virtual filesystem service - digital camera monitor.
+Mar 18 20:10:38 raspberrypi dbus-daemon[1031]: Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service'
+Mar 18 20:10:38 raspberrypi systemd[1006]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Mar 18 20:10:38 raspberrypi dbus-daemon[1031]: Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Mar 18 20:10:38 raspberrypi systemd[1006]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Mar 18 20:12:32 raspberrypi systemd[1006]: Time has been changed
+Mar 18 20:12:32 raspberrypi systemd[1]: Time has been changed
+Mar 18 20:12:32 raspberrypi systemd[1]: apt-daily.timer: Adding 3h 41min 31.749545s random time.
+Mar 18 20:12:32 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 48min 19.639060s random time.
+Mar 18 20:13:28 raspberrypi systemd[1]: dev-serial1.device: Job dev-serial1.device/start timed out.
+Mar 18 20:13:28 raspberrypi systemd[1]: Timed out waiting for device dev-serial1.device.
+Mar 18 20:13:28 raspberrypi systemd[1]: Dependency failed for Configure Bluetooth Modems connected by UART.
+Mar 18 20:13:28 raspberrypi systemd[1]: hciuart.service: Job hciuart.service/start failed with result 'dependency'.
+Mar 18 20:13:28 raspberrypi systemd[1]: dev-serial1.device: Job dev-serial1.device/start failed with result 'timeout'.
+Mar 18 20:13:28 raspberrypi systemd[1]: Reached target Multi-User System.
+Mar 18 20:13:28 raspberrypi systemd[1]: Reached target Graphical Interface.
+Mar 18 20:13:28 raspberrypi systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 18 20:13:28 raspberrypi systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 18 20:13:28 raspberrypi systemd[1]: Startup finished in 2.174s (kernel) + 1min 31.683s (userspace) = 1min 33.858s.
